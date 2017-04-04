@@ -1,0 +1,19 @@
+{
+  "name": "eslint-eslines",
+  "version": "0.0.1",
+  "description": "Utility that makes easier to combine ESLint and ESLines.",
+  "keywords": [
+	  "eslint",
+	  "eslines",
+	  "lint"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "bin": {
+    "eslint-eslines": "./index.js"
+  },
+  "peerDependencies": {
+    "eslint": "3.8.1",
+    "eslines": "0.0.12"
+  }
+}
