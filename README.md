@@ -10,12 +10,12 @@ ESLint and ESLines play well together:
 
 Yet, UNIX pipes may not play well with environments that allow parallelization. For example, in CircleCI you are allowed to execute the same command over a different set of files in parallel:
 
-- lint-command :
-	parallel: true
-	files:
-	  - client/**/*.js
-	  - client/**/*.jsx
-	  - server/**/*.js
-	  - server/**/*.jsx
+	lint-command :
+		parallel: true
+		files:
+		- client/**/*.js
+		- client/**/*.jsx
+		- server/**/*.js
+		- server/**/*.jsx
 
 In those cases, UNIX piping does not help, hence this utility.
