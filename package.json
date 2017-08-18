@@ -14,6 +14,6 @@
   },
   "peerDependencies": {
     "eslint": "^3.8.1",
-    "eslines": "Automattic/eslines#master"
+    "eslines": "Automattic/eslines#6bd6b417a3e4d23c05656c94182eb42d6e361d16"
   }
 }
