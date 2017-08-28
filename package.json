@@ -1,6 +1,6 @@
 {
   "name": "eslint-eslines",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utility that makes easier to combine ESLint and ESLines.",
   "keywords": [
 	  "eslint",
@@ -13,7 +13,7 @@
     "eslint-eslines": "./index.js"
   },
   "peerDependencies": {
-    "eslint": "^3.8.1",
-    "eslines": "^0.0.13"
+    "eslint": "3.8.1",
+    "eslines": "1.0.0"
   }
 }
