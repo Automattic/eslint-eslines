@@ -13,7 +13,7 @@
     "eslint-eslines": "./index.js"
   },
   "peerDependencies": {
-    "eslint": "^3.8.1",
-    "eslines": "1.1.0"
+    "eslint": "4.*",
+    "eslines": "1.*"
   }
 }
