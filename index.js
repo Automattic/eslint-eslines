@@ -28,9 +28,7 @@ eslint.stdout.on( 'data', ( data ) => {
 	eslines.stdin.write( data );
 });
 
-var eslintStdErr = 0;
 eslint.stderr.on( 'data', ( data ) => {
-	eslintStdErr = 1;
 	process.stderr.write( data );
 });
 
@@ -47,13 +45,5 @@ eslines.stderr.on( 'data', ( data ) => {
 });
 
 eslines.on( 'close', ( code ) => {
-	// since the goal of eslines is to downgrade errors
-	// on non-modified lines, we can't count on eslint's
-	// exit code, but we assume that if eslint output
-	// something on its stderr, this means it encountered
-	// some other error
-	if ( eslintStdErr === 1 ) {
-		process.exit( 1 );
-	}
 	process.exit( code );
 });
