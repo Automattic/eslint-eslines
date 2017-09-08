@@ -21,7 +21,7 @@ if ( process.argv.length > 2 && ( -1 === markerIndex || 2 < markerIndex ) ) {
 	process.exit( 0 );
 }
 
-const eslint = child_process.spawn( path.join( '.', 'node_modules', '.bin', 'eslint' ), argsESLint, { shell: true } );
+const eslint = child_process.spawn( path.join( '.', 'eslint', 'bin', 'eslint' ), argsESLint, { shell: true } );
 const eslines = child_process.spawn( path.join( '.', 'node_modules', '.bin', 'eslines' ), argsESLines, { shell: true } );
 
 eslint.stdout.on( 'data', ( data ) => {

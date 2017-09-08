@@ -1,6 +1,6 @@
 {
-  "name": "eslint-eslines",
-  "version": "1.0.0",
+  "name": "eslint",
+  "version": "4.6.1",
   "description": "Utility that makes easier to combine ESLint and ESLines.",
   "keywords": [
 	  "eslint",
@@ -10,10 +10,12 @@
   "license": "GPL-3.0",
   "main": "index.js",
   "bin": {
-    "eslint-eslines": "./index.js"
+    "eslint": "./index.js"
   },
-  "peerDependencies": {
-    "eslint": "4.*",
-    "eslines": "1.*"
+  "dependencies": {
+      "eslines": "1.1.0",
+      "eslint-config-wpcalypso": "1.0.0",
+      "eslint-plugin-react": "7.1.0",
+      "eslint-plugin-wpcalypso": "4.0.0"
   }
 }
