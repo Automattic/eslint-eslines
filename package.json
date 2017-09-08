@@ -14,7 +14,6 @@
   },
   "dependencies": {
       "eslines": "1.1.0",
-      "eslint-proper": "eslint/eslint#v4.6.1",
       "eslint-config-wpcalypso": "1.0.0",
       "eslint-plugin-react": "7.1.0",
       "eslint-plugin-wpcalypso": "4.0.0"
