@@ -1,6 +1,6 @@
 {
   "name": "eslint-eslines",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Utility that makes easier to combine ESLint and ESLines.",
   "keywords": [
 	  "eslint",
